@@ -12,7 +12,8 @@ namespace InterfaceExercise
         public string Model { get; set; } = "Mustang";
         public int SeatCount { get; set; } = 4;
         public string CompantName { get; set; } = "Ford";
-        public string Motto { get; set; } = "Build Ford Tough";
+        public string Year { get; set; }
+        public string Motto { get ; set ; }
 
         public void Drive()
         {
